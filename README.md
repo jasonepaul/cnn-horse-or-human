@@ -18,7 +18,7 @@ horses and diversity of humans represented. Images were available in the followi
 
 Sample human and horse images:
 
-|![](.\data\horse-or-human\train\humans\human01-15.png)|![](.\data\horse-or-human\train\horses\horse02-0.png)
+![human](.\figures\human01-15.png) ![horse](.\figures\horse02-0.png)
 
 A convolutional neural network (CNN) was chosen as the classification model. "Training" data was divided into 
 80% training and 20% validation during the model fitting process. The CNN was built using the 
@@ -34,4 +34,4 @@ experiment with transfer learning—taking a successful model made by others on 
 this on an entirely different classification problem. I usedTensorFlow's VGG16 CNN model with the pre-trained
 weights for the filter layers, and added fully connected layers that were subsequently trained to my problem.
 The resulting model had 16 layers (13 filter, 1 flatten, 2 fully connected dense) for 14.7 million trainable
-parameters. This turned out to be highly successful with an accuracy on the test data of 99.6%.
+parameters. This model turned out to be highly successful with an accuracy on the test data of 99.6%.
