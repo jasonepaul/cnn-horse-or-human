@@ -8,7 +8,8 @@ has a human or horse.
 The project uses the well-known "horse vs human" dataset made available for 
 learning computer vision algorithms. Credit for the dataset goes to Laurence Moroney (lmoroney@gmail.com / 
 laurencemoroney.com). Images are 300 x 300 pixels in 3 colour channels with various species of 
-horses and diversity of humans represented. Images were available in the following pre-organized categories:
+horses and diversity of humans represented. Images were available in the following pre-organized categories, with 
+quantities as indicated:
 
 |         | Training | Test | Total |
 | :------ | --------:| ----------:| -----:|
@@ -18,7 +19,7 @@ horses and diversity of humans represented. Images were available in the followi
 
 Sample human and horse images:
 
-![human](.\figures\human01-15.png) ![horse](.\figures\horse02-0.png)
+![human](./figures/human01-15.png) ![horse](./figures/horse02-0.png)
 
 A convolutional neural network (CNN) was chosen as the classification model. "Training" data was divided into 
 80% training and 20% validation during the model fitting process. The CNN was built using the 
