@@ -25,7 +25,7 @@ A convolutional neural network (CNN) was chosen as the classification model. "Tr
 80% training and 20% validation during the model fitting process. The CNN was built using the 
 TensorFlow (Keras) Sequential class.
 
-The first model constructed used 11 layers (8 filter, 1 flatten, 2 fully connected dense) for 2.2 million trainable 
+The first model constructed used 11 layers (8 filter, 3 fully connected dense) for 2.2 million trainable 
 parameters. Regularization (L2) and dropout was used to try to reduce over-fitting of the training data. The resulting 
 best accuracy on the test data was 83.6%.
 
@@ -34,5 +34,5 @@ VGG16 (very deep) CNN architecture. (This design was used to win an Imagenet com
 experiment with transfer learning—taking a successful model made by others on a classification problem and using
 this on an entirely different classification problem. I usedTensorFlow's VGG16 CNN model with the pre-trained
 weights for the filter layers, and added fully connected layers that were subsequently trained to my problem.
-The resulting model had 16 layers (13 filter, 1 flatten, 2 fully connected dense) for 14.7 million trainable
+The resulting model had 21 layers (18 filter, 3 fully connected dense) for 14.7 million trainable
 parameters. This model turned out to be highly successful with an accuracy on the test data of 99.6%.
