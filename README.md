@@ -19,7 +19,7 @@ quantities as indicated:
 
 Sample human and horse images:
 
-![human](./figures/human01-15.png) ![horse](./figures/horse02-0.png)
+![human](./figures/human04-00.png) ![horse](./figures/horse02-0.png)
 
 A convolutional neural network (CNN) was chosen as the classification model. "Training" data was divided into 
 80% training and 20% validation during the model fitting process. The CNN was built using the 
